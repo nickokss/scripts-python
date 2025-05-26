@@ -2,13 +2,15 @@ import os
 import shutil
 
 def organizar_descargas():
-    carpeta_descargas = os.path.join(os.path.expanduser("~", "Downloads")
+    carpeta_descargas = os.path.join(os.path.expanduser("~"), "Downloads")
     subcarpetas = {
-        "Documentos": [".pdf", ".docs", ".xlsx", ".xls", ".txt", ".pptx"],
-        "Imagenes": [".jpg", ".jpeg", ".png", ".gif"],
-        "Videos": [".mp4", ".mov", ".avi"],
-        "Programas": [".exe", ".msi"],
-        "Comprimidos": [".zip", ".rar",".7z"],
+        "Certificados": [".crt"],
+        "Codigo": [".java", ".py", ".sql", ".vb"],
+        "Comprimidos": [".zip", ".rar", ".7z", ".gz", ".pkg", ".paq", ".tar"],
+        "Documentos": [".pdf", ".docs", ".xlsx", ".xls", ".txt", ".pptx", ".csv", ".ppt", ".md"],
+        "Imagenes": [".jpg", ".jpeg", ".png", ".gif", ".webp"],
+        "Programas": [".exe", ".msi", ".msix", ".appx"],
+        "Videos": [".mp4", ".mov", ".avi", ".flv"],
         "Otros":[]
     }
 
