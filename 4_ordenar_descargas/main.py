@@ -9,7 +9,7 @@ def organizar_descargas():
         "Comprimidos": [".zip", ".rar", ".7z", ".gz", ".pkg", ".paq", ".tar"],
         "Documentos": [".pdf", ".docs", ".xlsx", ".xls", ".txt", ".pptx", ".csv", ".ppt", ".md"],
         "Imagenes": [".jpg", ".jpeg", ".png", ".gif", ".webp"],
-        "Programas": [".exe", ".msi", ".msix", ".appx"],
+        "Programas": [".exe", ".msi", ".msix", ".appx", ".bat"],
         "Videos": [".mp4", ".mov", ".avi", ".flv"],
         "Otros":[]
     }
